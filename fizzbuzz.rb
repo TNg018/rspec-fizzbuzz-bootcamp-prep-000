@@ -1,2 +1,3 @@
-fizz_3 = fizzbuzz(3)
-expect(fizz_3).to eq("Fizz")
+fizz_3 = fizzbuzz(3) do
+expect(fizz_3).to eq("Fizz") 
+end
