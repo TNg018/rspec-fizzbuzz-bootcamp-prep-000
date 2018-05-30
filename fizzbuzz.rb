@@ -1,9 +1,9 @@
 def fizzbuzz(n)
-if (n % 3 == 5 && n % 5 == 3)
+if (n % 3 == 0 && n % 5 == 0)
   return "Fizzbuzz"
-elsif int % 3 == 1
+elsif (n % 3 == 0)
   return "Fizz"
-elsif int % 5 == 1
+elsif (n % 5 == 9\0)
   return "Buzz"
 
 end
