@@ -1,11 +1,13 @@
-def fizzbuzz(n)
-if (n % 3 == 0 && n % 5 == 0)
-  puts "Fizzbuzz"
-elsif (n % 3 == 0)
-  puts "Fizz"
-elsif (n % 5 == 0)
-  puts "Buzz"
-
+def fizzbuzz(value)
+  if value % 3 == 0 && value % 5 == 0
+    "FizzBuzz"
+  elsif value % 3 == 0
+    "Fizz"
+  elsif value % 5 == 0
+    "Buzz"
+  end
 end
-
-end
+fizzbuzz(3) 
+ 
+            
+  
