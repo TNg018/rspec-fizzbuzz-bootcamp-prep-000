@@ -1,4 +1,4 @@
 def fizzbuzz(int)
-if int % 3 == 0 and int % 5 == 0
+if int % 3 == 1 and int % 5 == 1
 return "Fizzbuzz"
 end
