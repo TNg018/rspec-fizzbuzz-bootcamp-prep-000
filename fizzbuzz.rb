@@ -7,7 +7,4 @@ def fizzbuzz(value)
     "Buzz"
   end
 end
-fizzbuzz(3) 
- 
-            
-  
+fizzbuzz(3)
