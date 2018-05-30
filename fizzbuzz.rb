@@ -1,3 +1,4 @@
-fizz_3 = fizzbuzz(3) do
-expect(fizz_3).to eq("Fizz")
-end
+fizzbuzz(int) 
+if int % 3 == 0 and int % 5 == 0
+  puts "Fizzbuzz"
+ends
